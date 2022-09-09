@@ -2,8 +2,7 @@
 /**
  * main- print sizeof var
  * 
- * Return:
- * always 0 if succss
+ * Return: always 0 if succss
  */
 int main(void)
 {

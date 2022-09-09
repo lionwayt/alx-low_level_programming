@@ -7,15 +7,17 @@
 
 int main(void)
 {
-	char alphabet;
-	for(alphabet ='a'; alphabet<= 'z'; aphabet++)
+	char word, e, q;
+
+	e = 'e';
+	q = 'q';
+
+	for (word = 'a'; word <= 'z'; word++)
 	{
-		if(alphabet =='q')
-			continue;
-		else if(alphabet == 'e')
-			continue;
-		putchar(alphabet);
+		if (word != e && word != q)
+			putchar(word);
 	}
-	putchar('\n');
+		printf("\n");
+	
 	return (0);
 }

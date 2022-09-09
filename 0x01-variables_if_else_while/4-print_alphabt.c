@@ -18,6 +18,5 @@ int main(void)
 			putchar(word);
 	}
 		printf("\n");
-	
 	return (0);
 }

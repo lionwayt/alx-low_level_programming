@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	char hot;
+	char word;
 
-	for (hot = 'a'; hot <= 'z'; hot++)
-		putchar(hot);
-	        printf('\n');
+	for (word = 'a'; word <= 'z'; word++)
+		putchar(word);
+	        printf("\n");
 
 	return (0);
 }

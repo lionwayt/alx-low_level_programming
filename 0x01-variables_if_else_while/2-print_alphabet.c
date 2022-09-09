@@ -4,13 +4,12 @@
  *
  * Return: always 1
  */
-
 int main(void)
 {
-	char alphabet;
-	for(alphabet='0'; alphabet <= 'z'; alphabet++)
+	char hot;
+	for(hot='a'; hot <= 'z'; hot++)
 	{
-		putchar(alphabet);
+		putchar(hot);
 	}
 	putchar('\n');
 	return (0);

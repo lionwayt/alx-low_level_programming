@@ -7,10 +7,10 @@
 int main(void)
 {
 	char hot;
-	for(hot='a'; hot <= 'z'; hot++)
-	{
+
+	for (hot = 'a'; hot <= 'z'; hot++)
 		putchar(hot);
-	}
-	putchar('\n');
+	        printf('\n');
+
 	return (0);
 }

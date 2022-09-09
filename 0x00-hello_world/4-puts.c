@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *Description: main function prints out string stdio
+ *Description: main- function prints out string stdio
+ *
  * return: 0 if success
  */
 int main(void)

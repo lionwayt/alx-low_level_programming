@@ -2,7 +2,7 @@
 /**
  *main- function prints out string stdio
  *
- * return: 0 if success
+ *return: 0 if success
  */
 int main(void)
 {

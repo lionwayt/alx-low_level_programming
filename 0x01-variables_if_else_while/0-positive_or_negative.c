@@ -7,10 +7,10 @@
 #include <time.h>
 #include <stdio.h>
  /**
-  *main - print random number
+  * main - print random number
   *wethere its positive, negative
   *
-  *Returni reurn 0
+  * Return: reurn 0
   */
 int main(void)
 {

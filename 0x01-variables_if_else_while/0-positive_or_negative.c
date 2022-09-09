@@ -1,19 +1,14 @@
-/*
- * file: positive
- *
- */
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
  /**
-  * main - print random number
-  *wethere its positive, negative
+  * main - entry point
   *
-  * Return: reurn 0
+  * Return: always success
   */
 int main(void)
 {
+
 	int n;
 
 	srand(time(0));

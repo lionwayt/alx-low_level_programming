@@ -1,8 +1,13 @@
+/*
+ * file: positive
+ *
+ */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
  /**
-  *main- print random number
+  *main - print random number
   *wethere its positive, negative
   *
   *Returni reurn 0

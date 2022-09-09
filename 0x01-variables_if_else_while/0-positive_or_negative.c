@@ -3,8 +3,9 @@
 #include <stdio.h>
  /**
   *main- print random number
+  *wethere its positive, negative
   *
-  *Return: reurn 0
+  *Returni reurn 0
   */
 int main(void)
 {

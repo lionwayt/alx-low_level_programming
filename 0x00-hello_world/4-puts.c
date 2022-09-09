@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *Description: main- function prints out string stdio
+ main- function prints out string stdio
  *
  * return: 0 if success
  */

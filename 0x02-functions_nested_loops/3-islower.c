@@ -2,7 +2,7 @@
 
 /**
  *  _islower - to check lower case
- *
+ * @c: a variable for the argument
  *  Return: 0
  */
 

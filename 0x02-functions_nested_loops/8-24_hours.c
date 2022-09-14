@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - prints every minute of the day of Jack Baue
- * @n: starting from 00:00 to 23:59
+ * n starting from 00:00 to 23:59
  * Return: 0
  */
 

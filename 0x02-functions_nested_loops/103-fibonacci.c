@@ -34,7 +34,7 @@ int main(void)
 		b = c;
 		i = j;
 		j = k;
-		if (c>= 100)
+		if (c >= 100)
 			printf("%lu%lu", k, c);
 		else
 			printf("%lu0%lu", k, c);

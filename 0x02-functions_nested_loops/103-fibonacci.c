@@ -11,7 +11,7 @@ int main(void)
 
 	a = sum = 0;
 	b = 1;
-	for (count = 0; count < 50; count ++)
+	for (count = 0; count < 50; count++)
 	{
 		c = a + b;
 		a = b;

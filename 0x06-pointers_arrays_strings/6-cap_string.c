@@ -15,7 +15,7 @@ char *cap_string(char *s)
 
 	while (s[a])
 	{
-		a = 0;
+		i = 0;
 
 		while (i < cspc)
 		{

@@ -1,13 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
- *  wordCounterRec - count num of words recursively
- *  @str: pointer to char
- *  @i: current index
- *  Return: number of words
- */
-
+* wordCounterRec - count num of words recursively
+* @str: pointer to char
+* @i: current index
+* Return: number of words
+**/
 int wordCounterRec(char *str, int i)
 {
 	if (str[i] == '\0')
@@ -17,10 +15,10 @@ int wordCounterRec(char *str, int i)
 	return (wordCounterRec(str, i + 1));
 }
 /**
- * word_counter - counts number of words in 1d array of strings
- * @str: pointer to char
- * Return: number of words
- */
+* word_counter - counts number of words in 1d array of strings
+* @str: pointer to char
+* Return: number of words
+**/
 int word_counter(char *str)
 {
 	if (str[0] != ' ')
@@ -28,10 +26,10 @@ int word_counter(char *str)
 	return (wordCounterRec(str, 0));
 }
 /**
- * strtow - splits a string into words.
- * @str: string to be splitted
- * Return: pointer to an array of strings (words) or null
- */
+* strtow - splits a string into words.
+* @str: string to be splitted
+* Return: pointer to an array of strings (words) or null
+**/
 char **strtow(char *str)
 {
 	char **strDup;

@@ -1,6 +1,6 @@
-/**
+/*
  * file: 0-print_listinit.c
- *
+ * Auth: hiwot
  */
 
 #include "lists.h"

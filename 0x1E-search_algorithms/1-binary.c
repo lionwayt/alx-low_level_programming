@@ -1,6 +1,6 @@
 /*
  * File: 1-binary.c
- * */
+ */
 
 #include "search_algos.h"
 
